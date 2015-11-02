@@ -1,6 +1,7 @@
 GIT
-  remote: git://github.com/awestruct/aweplug.git
-  revision: eba38b9f1e37143304ea6af1a79a20b35a3399c4
+  remote: git://github.com/wesbos/aweplug.git
+  revision: 6d65553e90d42215677d5dca8e356fdd7b59fd12
+  branch: dcp2-updates
   specs:
     aweplug (1.0.0.a24)
       curb (~> 0.8.5)
