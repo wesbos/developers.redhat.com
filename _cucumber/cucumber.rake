@@ -15,9 +15,7 @@ task :features do |t, args|
   else
     Rake::Task[:internal_test_task].invoke(args)
   end
-end
 
-task :internal_features_task do |t, args|
   runner = TestRunner.new
 
   if ENV['PARALLEL_TEST'].eql?('false') || ENV['CUCUMBER_TAGS'].eql?('@wip')
